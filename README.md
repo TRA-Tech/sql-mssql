@@ -11,7 +11,7 @@ Veritabanı yaklaşımı ile birlikte bir veri sorgulama diline veya aracına ih
 SQL dili ilişkisel alanda büyük ilgi görmüş ve İlişkisel Veri Tabanı Yönetim Sistemlerinin (İVTYS) tümünde yer alan standart dil görünümü kazanmıştır. Bu nedenle Veri Tabanı konusunda çalışan tüm bilişim teknik personeli tarafından bilinmesi gereken bir dil konumundadır.
 <br>
 
-# SQL dilini kullanan veritabanları
+## SQL dilini kullanan veritabanları
 - Sybase 
 - MySQL
 - PostgreSQL
@@ -24,3 +24,54 @@ SQL dili ilişkisel alanda büyük ilgi görmüş ve İlişkisel Veri Tabanı Y�
 - Microsoft Access
 
 <br>
+
+
+## SQL sorguları 4 ana gruba ayrılır:
+- DDL (Data Defination Language)
+- DML (Data Manipulation Language)
+- DCL (Data Control Language)
+- TCL (Transaction Control Language)
+
+### DDL (Data Defination Language)
+
+
+DDL yani **Veri Tanımlama Dili** verinin ne olduğu ile ilgilenmez. Verinin nerede, nasıl tutulacağı ile ilgilenir. Veritabanımıza kullanıcı ve tablo eklemek, güncellemek veya silmek gibi işlemler için DDL kullanırız.
+
+En temel DDL komutları şu şekildedir:
+- **CREATE** — Veritabanında tablo oluşturmamızı sağlar.
+- **ALTER** — Veritabanınında ilgili tablo üzerinde değişiklik yapmamızı sağlar.
+- **DROP** — Veritabanında ilgili tabloyu siler.
+- **TRUNCATE** — Veritabanında ilgili tablodaki tüm kayıtları siler.
+- **RENAME** — Veritabanında ilgili tabloyu yeniden adlandırır.
+
+### DML (Data Manipulation Language)
+
+DML yani **Veri İşleme Dili** veritabanındaki tablolar içerisindeki verileri yönetmek (ekleme, güncelleme, silme, seçme) için kullanılır.
+
+En temel DML komutları şu şekildedir
+- **SELECT** — Veritabanında ilgili tablodan veri çekmek/seçmek için kullanılır.
+- **INSERT** — Veritabanında ilgili tabloya veri ya da verileri eklemek için kullanılır.
+- **UPDATE** — Veritabanında ilgili tablodaki veri ya da verileri güncellemek için kullanılır.
+- **DELETE** — Veritabanında ilgili tablodaki veri ya da verileri silmek için kullanılır.
+
+
+### DCL (Data Control Language)
+
+DCL yani **Veri Kontrol Dili** verilerden ziyade veritabanındaki kullanıcılar ile ilgilenir diyebiliriz. Hangi tabloya kimler erişebilir vb.
+
+En temel DCL komutları şu şekildedir
+- **GRANT** — Kullanıcıların veritabanındaki tablolar üzerinde işlem yapıp yapamayacağını belirlememizi sağlar. Kullanıcıya izin vermeye yarar.
+- **DENY** — Kullanıcıların veritabanındaki tablolardaki verileri kullanmasını kısıtlamamızı sağlar. Kullanıcının yetkilerini geri almamıza yarar.
+- **REVOKE** — Kullanıcıların veritabanında daha önce verilmiş izinlerini veya uygulanmış kısıtlamalarını kaldırmamızı sağlar.
+
+### TCL (Transaction Control Language)
+
+
+TCL yani **İşlem Kontrol Dili** de verilerden ziyade yapılan işlemler ile ilgilenmektedir. Örnek olarak veritabanına bir veri ekledik fakat TCL yardımı ile yaptığımız bu işlemi veritabanına bildirmedik/onaylamadık. Veritabanı yönetim programını kapatıp açtığımız zaman eklediğimiz verinin kayıt olmadığını göreceğiz. Bu gibi problemlerle karşılaşmamak için TCL kullanırız.
+
+Muhtemelen çoğumuzun Entity Framework’den bildiği DbContext sınıfının ‘SaveChanges()’ metodu TCL’e bir örnektir (COMMIT).
+
+En temel TCL komutları şu şekildedir.
+- **COMMIT** — Veritabanında yaptığımız değişiklikleri onaylamamızı sağlar. Bu sayede yapılan değişiklikler (DML) veritabanına kayıt edilecektir.
+- **SAVEPOINT** — Veritabanında daha sonra geri dönülecek bir dönüş noktası belirler. Bir nevi snapshot gibi düşünebiliriz.
+- **ROLLBACK** — Veritabanımıza yanlışlıkla veri eklediğimizi ve COMMIT ile değişikliği veritabanına yazdığımızı düşünelim. Böyle bir senaryoda ROLLBACK kullanmamız gerekecektir. Şu anki COMMIT’ten bir önceki COMMIT’e geri dönmemizi sağlar bu sayede yanlışlıkla onayladığımız işlem aslında hiç olmamış gibi düşünebiliriz. Git versiyon kontrol sistemindeki reset komutuna benzetebiliriz (bkz:git reset).
