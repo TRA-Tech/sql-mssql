@@ -31,6 +31,7 @@ SQL dili ilişkisel alanda büyük ilgi görmüş ve İlişkisel Veri Tabanı Y�
 - DML (Data Manipulation Language)
 - DCL (Data Control Language)
 - TCL (Transaction Control Language)
+![Untitled](https://github.com/TRA-Tech/sql-sqlserver/assets/100773960/7e0d9581-0c43-4d16-89a8-d7febf1e9645)
 
 ### DDL (Data Defination Language)
 
