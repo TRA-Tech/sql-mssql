@@ -76,3 +76,20 @@ En temel TCL komutları şu şekildedir.
 - **COMMIT** — Veritabanında yaptığımız değişiklikleri onaylamamızı sağlar. Bu sayede yapılan değişiklikler (DML) veritabanına kayıt edilecektir.
 - **SAVEPOINT** — Veritabanında daha sonra geri dönülecek bir dönüş noktası belirler. Bir nevi snapshot gibi düşünebiliriz.
 - **ROLLBACK** — Veritabanımıza yanlışlıkla veri eklediğimizi ve COMMIT ile değişikliği veritabanına yazdığımızı düşünelim. Böyle bir senaryoda ROLLBACK kullanmamız gerekecektir. Şu anki COMMIT’ten bir önceki COMMIT’e geri dönmemizi sağlar bu sayede yanlışlıkla onayladığımız işlem aslında hiç olmamış gibi düşünebiliriz. Git versiyon kontrol sistemindeki reset komutuna benzetebiliriz (bkz:git reset).
+
+Örnek olması adına aşağıda basit bir tablo oluşturmak için kullanılan kod parçasını görebiliriz.
+``` sql
+CREATE TABLE Customers ( 
+   CustomerID INT PRIMARY KEY, 
+   CustomerName VARCHAR(50), 
+   ContactName VARCHAR(50), 
+   Country VARCHAR(50) 
+); 
+INSERT INTO Customers (CustomerID, CustomerName, ContactName, Country) 
+VALUES (1, 'ABC Company', 'John Smith', 'USA'), 
+       (2, 'XYZ Corporation', 'Jane Doe', 'Canada'), 
+       (3, 'PQR Inc', 'Bob Johnson', 'UK');     
+```        
+Bu kod parçası, "Customers" adında bir tablo oluşturur. Tablo, "CustomerID", "CustomerName", "ContactName" ve "Country" adlı sütunları içerir. "CustomerID" sütunu birincil anahtar olarak belirlenir, yani her satırın benzersiz bir "CustomerID" değeri olmalıdır. Daha sonra, "INSERT INTO" ifadesi kullanılarak tabloya üç satır eklendi. Bu satırlar, "CustomerID", "CustomerName", "ContactName" ve "Country" sütunlarına değerler atar.
+
+Sonuç olarak, bu kod parçası, "Customers" adlı bir tablo oluşturur ve içine üç müşteri kaydı ekler.
