@@ -11,6 +11,19 @@ Veritabanı yaklaşımı ile birlikte bir veri sorgulama diline veya aracına ih
 SQL dili ilişkisel alanda büyük ilgi görmüş ve İlişkisel Veri Tabanı Yönetim Sistemlerinin (İVTYS) tümünde yer alan standart dil görünümü kazanmıştır. Bu nedenle Veri Tabanı konusunda çalışan tüm bilişim teknik personeli tarafından bilinmesi gereken bir dil konumundadır.
 <br>
 
+Kısaca bilinmesi gereken terimler de aşağıdaki gibidir.
+
+- **Veritabanı:** MSSQL'de verilerin depolandığı ana yapıdır. Veritabanı, bir veya daha fazla tablodan oluşabilir ve kullanıcılar verileri burada saklarlar.
+- **Tablo:** Verilerin belirli bir şekilde sıralandığı yapıdır. Tablolar, sütunlar ve satırlar içerir ve her satır, tablonun belirli bir sütunundaki verileri içerir.
+- **Sütun:** Tablolarda depolanan verilerin belirli bir türde depolandığı yapıdır. Örneğin, bir müşteri tablosunda sütunlar adı, soyadı, adresi, telefon numarası gibi bilgileri içerebilir.
+- **Satır:** Tablolarda depolanan verilerin her bir öğesi satır olarak adlandırılır. Örneğin, müşteri tablosunda bir satır, bir müşterinin adını, soyadını, adresini ve telefon numarasını içerebilir.
+- **Sorgu:** Veritabanında belirli verileri bulmak veya değiştirmek için kullanılan bir işlemdir. Sorgular SQL dilinde yazılır ve belirli bir veritabanı işlemi gerçekleştirmek için kullanılır. Örneğin, müşterilerin adreslerini aramak için bir sorgu yazılabilir.
+- **İndex:** Bir tablonun performansını artırmak için kullanılan bir yapıdır. İndexler, belirli bir sütuna göre sıralama yaparak sorgu işlemlerinin daha hızlı çalışmasına yardımcı olabilir.
+- **Depolama Prosedürü:** Veritabanında depolanan işlevleri ifade eder. Depolama prosedürleri, verileri aramak, ekleme veya güncelleme gibi belirli bir veritabanı işlemi gerçekleştirmek için kullanılabilir.
+- **Yedekleme:** Veritabanının yedeklenmesi ve kurtarılması işlemidir. Veritabanının yedeklenmesi, veri kaybını önlemek için önemlidir. Yedekler, bir veritabanı felaket durumunda kullanılabilir.
+- **Yapılandırma Yöneticisi:** MSSQL sunucusunun yapılandırılmasını sağlar. Yapılandırma yöneticisi, sunucu ayarlarını değiştirme, kullanıcı hesaplarını yönetme ve veritabanı erişim izinlerini ayarlama gibi görevleri yapabilir.
+- **Bağlantı Dizesi:** MSSQL sunucusuna bağlanmak için gereken bilgileri içerir. Bağlantı dizesi, veritabanı adı, sunucu adı, kullanıcı adı ve şifre gibi bilgileri içerir ve MSSQL sunucusuna erişmek için kullanılır.
+
 ## SQL dilini kullanan veritabanları
 - Sybase 
 - MySQL
