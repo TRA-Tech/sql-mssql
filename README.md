@@ -106,3 +106,43 @@ VALUES (1, 'ABC Company', 'John Smith', 'USA'),
 Bu kod parçası, "Customers" adında bir tablo oluşturur. Tablo, "CustomerID", "CustomerName", "ContactName" ve "Country" adlı sütunları içerir. "CustomerID" sütunu birincil anahtar olarak belirlenir, yani her satırın benzersiz bir "CustomerID" değeri olmalıdır. Daha sonra, "INSERT INTO" ifadesi kullanılarak tabloya üç satır eklendi. Bu satırlar, "CustomerID", "CustomerName", "ContactName" ve "Country" sütunlarına değerler atar.
 
 Sonuç olarak, bu kod parçası, "Customers" adlı bir tablo oluşturur ve içine üç müşteri kaydı ekler.
+
+
+# SQL Server
+![sql](https://github.com/TRA-Tech/sql-sqlserver/assets/100773960/77fad19f-759f-43ab-861c-02a1272c08bc)
+
+
+SQL Server, Microsoft tarafından geliştirilen bir ilişkisel veritabanı yönetim sistemidir. Veritabanı yönetim sistemleri (DBMS), verileri düzenlemek, depolamak ve yönetmek için kullanılan yazılım araçlarıdır. SQL Server, büyük işletmelerden küçük ölçekli projelere kadar çeşitli kullanım durumlarına uygun olarak tasarlanmıştır.
+
+## Temel Özellikleri
+
+- **Veri Depolama ve Yönetim** :
+SQL Server, yapılandırılmış veri depolama imkanı sunar. Veriler tablolarda düzenlenir ve SQL (Structured Query Language) kullanılarak sorgulanır. Bu sayede veri güvenliği, bütünlük ve erişilebilirlik sağlanır.
+
+
+- **Güvenlik** :
+SQL Server, veritabanı güvenliği için çeşitli mekanizmalar sunar. Kullanıcı ve roller yönetimi, veri şifreleme, izin ayarları gibi özelliklerle verilerin korunması sağlanır.
+
+
+- **Yedekleme ve Kurtarma** :
+Veri kaybını önlemek için SQL Server yedekleme ve kurtarma özellikleri sunar. Verilerin düzenli olarak yedeklenmesi ve gerektiğinde geri yüklenmesi sağlanır.
+
+
+- **Yüksek Erişilebilirlik** :
+SQL Server, yüksek erişilebilirlik sağlamak için çeşitli özellikler sunar. Failover Cluster Instance (FCI) ve Always On Availability Groups gibi yöntemlerle kesintisiz hizmet sağlanır.
+
+
+- **Veritabanı Uygulama Geliştirme** :
+SQL Server, veritabanı uygulamaları geliştirmek için geniş bir araç ve dil yelpazesi sunar. Stored procedure'ler, view'lar ve iş tetikleyiciler gibi özelliklerle veritabanı mantığı kod tarafında uygulanabilir.
+
+
+- **İş Zekası ve Raporlama** :
+SQL Server, verilerin analiz edilmesi ve raporlanması için Business Intelligence (BI) araçları sunar. Integration Services (SSIS), Analysis Services (SSAS) ve Reporting Services (SSRS) gibi bileşenlerle verilerin işlenmesi ve görselleştirilmesi sağlanır.
+
+
+- **Sürümler ve Lisanslama** :
+SQL Server, farklı sürümler halinde gelir ve bu sürümler farklı özelliklere ve kullanım durumlarına yönelik tasarlanmıştır. Lisanslama da bu sürümlere göre değişiklik gösterebilir.
+
+
+Sonuç olarak SQL Server, veritabanı yönetimi ve iş zekası ihtiyaçlarını karşılamak için geniş bir yelpazede özellik sunan güçlü bir DBMS'dir. Veri yönetimi, güvenlik, yedekleme, geliştirme ve raporlama gibi çeşitli alanlarda kullanılabilecek esneklik sunar.
+
