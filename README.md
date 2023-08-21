@@ -27,10 +27,10 @@ Kısaca bilinmesi gereken terimler de aşağıdaki gibidir.
 - **Bağlantı Dizesi:** MSSQL sunucusuna bağlanmak için gereken bilgileri içerir. Bağlantı dizesi, veritabanı adı, sunucu adı, kullanıcı adı ve şifre gibi bilgileri içerir ve MSSQL sunucusuna erişmek için kullanılır.
 
 ## SQL dilini kullanan veritabanları
+- Microsoft SQL Server
 - Sybase 
 - MySQL
 - PostgreSQL
-- Microsoft SQL Server
 - Oracle
 - IBM DB2
 - IBM Informix
