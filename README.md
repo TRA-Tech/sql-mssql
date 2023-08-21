@@ -1,3 +1,5 @@
+<img src="https://github.com/TRA-Tech/sql-sqlserver/assets/100773960/36bcd2f4-1fb3-46d9-9063-f1257d0d2869" width="75" height="75"> 
+
 # SQL
 SQL (Structured Query Language), ilişkisel veritabanı yönetim sistemlerinde kullanılan bir programlama dilidir. SQL, veritabanlarında veri eklemek, güncellemek, silmek ve sorgulamak için kullanılır.
 
@@ -109,7 +111,8 @@ Sonuç olarak, bu kod parçası, "Customers" adlı bir tablo oluşturur ve için
 
 
 # SQL Server
-![sql](https://github.com/TRA-Tech/sql-sqlserver/assets/100773960/77fad19f-759f-43ab-861c-02a1272c08bc)
+![image](https://github.com/TRA-Tech/sql-sqlserver/assets/100773960/f5c24057-1ea8-4443-9b33-3524d4bbe7c5)
+
 
 
 SQL Server, Microsoft tarafından geliştirilen bir ilişkisel veritabanı yönetim sistemidir. Veritabanı yönetim sistemleri (DBMS), verileri düzenlemek, depolamak ve yönetmek için kullanılan yazılım araçlarıdır. SQL Server, büyük işletmelerden küçük ölçekli projelere kadar çeşitli kullanım durumlarına uygun olarak tasarlanmıştır.
