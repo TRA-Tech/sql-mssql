@@ -1,4 +1,5 @@
-<img src="https://github.com/TRA-Tech/sql-sqlserver/assets/100773960/36bcd2f4-1fb3-46d9-9063-f1257d0d2869" width="75" height="75"> 
+<img src="https://github.com/TRA-Tech/sql-sqlserver/assets/100773960/0ef9b179-8bdb-47f0-a8a5-765c696b9606" width="75" height="75"> 
+
 
 # SQL
 SQL (Structured Query Language), ilişkisel veritabanı yönetim sistemlerinde kullanılan bir programlama dilidir. SQL, veritabanlarında veri eklemek, güncellemek, silmek ve sorgulamak için kullanılır.
@@ -46,7 +47,10 @@ Kısaca bilinmesi gereken terimler de aşağıdaki gibidir.
 - DML (Data Manipulation Language)
 - DCL (Data Control Language)
 - TCL (Transaction Control Language)
-![Untitled](https://github.com/TRA-Tech/sql-sqlserver/assets/100773960/7e0d9581-0c43-4d16-89a8-d7febf1e9645)
+
+  
+![image](https://github.com/TRA-Tech/sql-sqlserver/assets/100773960/b3635941-55c7-4b7f-b2ab-b7931f660982)
+
 
 ### DDL (Data Defination Language)
 
@@ -111,9 +115,7 @@ Sonuç olarak, bu kod parçası, "Customers" adlı bir tablo oluşturur ve için
 
 
 # SQL Server
-![image](https://github.com/TRA-Tech/sql-sqlserver/assets/100773960/f5c24057-1ea8-4443-9b33-3524d4bbe7c5)
-
-
+![image](https://github.com/TRA-Tech/sql-sqlserver/assets/100773960/0e6582a0-80e6-417d-82a5-51e6d0ed6193)
 
 SQL Server, Microsoft tarafından geliştirilen bir ilişkisel veritabanı yönetim sistemidir. Veritabanı yönetim sistemleri (DBMS), verileri düzenlemek, depolamak ve yönetmek için kullanılan yazılım araçlarıdır. SQL Server, büyük işletmelerden küçük ölçekli projelere kadar çeşitli kullanım durumlarına uygun olarak tasarlanmıştır.
 
