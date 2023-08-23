@@ -114,10 +114,10 @@ Bu kod parçası, "Customers" adında bir tablo oluşturur. Tablo, "CustomerID",
 Sonuç olarak, bu kod parçası, "Customers" adlı bir tablo oluşturur ve içine üç müşteri kaydı ekler.
 
 
-# SQL Server
+# Microsoft SQL Server
 ![image](https://github.com/TRA-Tech/sql-sqlserver/assets/100773960/0e6582a0-80e6-417d-82a5-51e6d0ed6193)
 
-SQL Server, Microsoft tarafından geliştirilen bir ilişkisel veritabanı yönetim sistemidir. Veritabanı yönetim sistemleri (DBMS), verileri düzenlemek, depolamak ve yönetmek için kullanılan yazılım araçlarıdır. SQL Server, büyük işletmelerden küçük ölçekli projelere kadar çeşitli kullanım durumlarına uygun olarak tasarlanmıştır.
+Microsoft SQL Server, Microsoft tarafından geliştirilen bir ilişkisel veritabanı yönetim sistemidir. Veritabanı yönetim sistemleri (DBMS), verileri düzenlemek, depolamak ve yönetmek için kullanılan yazılım araçlarıdır. SQL Server, büyük işletmelerden küçük ölçekli projelere kadar çeşitli kullanım durumlarına uygun olarak tasarlanmıştır.
 
 ## Temel Özellikleri
 
